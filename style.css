@@ -147,3 +147,21 @@
 .join{
     border-radius: 0px;
 }
+
+/* footer section style  */
+.footer-container{
+    /* width: 90%; */
+    padding: 40px;
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+}
+.footer-container p{
+    color: #D9DBE1;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.fa-brands{
+    font-size: 1.2rem;
+    margin: 10px;
+}
