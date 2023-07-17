@@ -70,3 +70,13 @@
 .banner-img img{
     padding: 15px;
 }
+
+/* sponsor section style  */
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    margin: 0px 290px;
+    border-top: 1px solid rgba(128, 128, 128, 0.247);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
