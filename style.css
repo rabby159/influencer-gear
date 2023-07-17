@@ -83,4 +83,43 @@
     
 }
 
-
+/* popular section style  */
+.popular-container{
+    padding: 50px 0px;
+    margin: 0px 240px;
+}
+.popular-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: #3A3A3A;
+    font-size: 1.5rem;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+.card{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+.card-title{
+    color: #18191F;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.cards-container > .card > p{
+    color: #787885;
+    font-size: 0.8rem;
+}
+.see-more{
+    text-align: end;
+    color: #E02C6D;
+    font-size: 1.2rem;
+}

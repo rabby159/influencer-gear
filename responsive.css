@@ -37,6 +37,7 @@
         margin: 0px;
         flex-wrap: wrap;
         gap: 20px;
+        border: none;
        
     }
 }
