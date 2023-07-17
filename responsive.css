@@ -1,6 +1,8 @@
 /* media quarry for mobile  */
 @media screen and (max-width: 576px) {
-    .nav-container{
+    .nav-container,
+    .featured-container
+    {
         flex-direction: column;
         margin: 0px;
     }
@@ -14,7 +16,9 @@
     .nav-menu li{
         margin-left: 18px;
     }
-    .banner-container{
+    .banner-container,
+    .featured-container
+    {
         flex-direction: column-reverse;
         padding: 50px 0px;
         margin: 10px;
@@ -47,11 +51,17 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
+    .featured-img img{
+        width: 90%;
+        margin-left: 27px;
+    }
 }
 
 /* media quarry for tablet  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .nav-container{
+    .nav-container,
+    .featured-container
+    {
         flex-direction: column;
         margin: 0px;
     }
@@ -81,5 +91,8 @@
     .cards-container{
         grid-template-columns: repeat(2, 1fr);
 
+    }
+    .featured-content{
+        text-align: center;
     }
 }
