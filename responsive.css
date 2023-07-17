@@ -1,0 +1,70 @@
+/* media quarry for mobile  */
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .nav-title{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .nav-menu{
+        padding: 0px;
+    }
+    .nav-menu li{
+        margin-left: 18px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        padding: 50px 0px;
+        margin: 10px;
+    }
+    .banner-title{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .banner-describe{
+        text-align: center;
+    }
+    .btn-primary{
+        margin-left: 100px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .sponsor-logo{
+        margin: 0px;
+        flex-wrap: wrap;
+        gap: 20px;
+       
+    }
+}
+
+/* media quarry for tablet  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-container{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .nav-title{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .nav-menu{
+        padding: 0px;
+        margin-left: 180px;
+    }
+    .nav-menu li{
+        align-items: center;
+        /* margin-left: 80px; */
+    }
+    .banner-container{
+        padding: 50px 0px;
+        margin: 20px;
+    }
+    .sponsor-logo{
+        margin: 0px;
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
