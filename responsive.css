@@ -40,6 +40,13 @@
         border: none;
        
     }
+    .popular-container{
+        margin: 0px;
+    }
+    .cards-container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
 
 /* media quarry for tablet  */
@@ -67,5 +74,12 @@
     .sponsor-logo{
         margin: 0px;
         grid-template-columns: repeat(7, 1fr);
+    }
+    .popular-container{
+        margin: 0px;
+    }
+    .cards-container{
+        grid-template-columns: repeat(2, 1fr);
+
     }
 }
